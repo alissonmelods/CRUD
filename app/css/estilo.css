@@ -1,0 +1,62 @@
+#centroLogin {
+	width: 310px;
+  height: 430px;
+  margin-left: -100px; /* metade da largura */
+  margin-top: -100px; /* metade da altura */
+  position: absolute;
+  top: 30%;
+  left: 46%;
+  background-color: #303841;
+  padding: 0px;
+}
+#centroLogin2{
+  margin: 15px;
+}
+#centroLogin3{
+  margin: 40px 10px 40px 10px;
+}
+
+#imgLogo{
+  position: relative;
+  top: 26%;
+  transform: translateY(-26%); 
+}
+
+#link{  
+  text-decoration: none
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 677px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+
+    
